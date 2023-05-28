@@ -1,0 +1,85 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.gradient-examples {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.gradient-example {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.gradient-linear {
+  background: linear-gradient(to top, #ff0000, #00ff00);
+}
+
+.gradient-radial {
+  background: radial-gradient(circle, #0000ff, #ffff00);
+}
+
+.gradient-conic {
+  background: conic-gradient(#ff00ff, #00ffff);
+}
+
+.gradient-repeating {
+  background: repeating-linear-gradient(45deg, #ff0000, #ffff00 10%);
+}
+
+.gradient-linear2 {
+  background: linear-gradient(to right, #00ff00, #0000ff);
+}
+
+.gradient-radial2 {
+  background: radial-gradient(ellipse, #ff00ff, #ffff00);
+}
+
+.gradient-conic2 {
+  background: conic-gradient(from 180deg at 50% 50%, #0000ff, #00ffff);
+}
+
+.gradient-repeating2 {
+  background: repeating-radial-gradient(#ff0000, #ffff00 10%);
+}
+
+.gradient-linear3 {
+  background: linear-gradient(45deg, #00ff00, #0000ff);
+}
+
+.gradient-radial3 {
+  background: radial-gradient(closest-side, #ff00ff, #ffff00);
+}
+
+.gradient-conic3 {
+  background: conic-gradient(at center, #0000ff, #00ffff);
+}
+
+.gradient-repeating3 {
+  background: repeating-conic-gradient(#ff0000, #ffff00 30deg);
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.text p {
+  color: #333;
+  font-size: 18px;
+}
